@@ -430,6 +430,7 @@ body {
 }
 
 .footer {
+    width: 100%;
     margin-top: 8em;
     height: 70vh;
     background-color: #202434;
