@@ -67,11 +67,15 @@ body {
     top: 2em;
     right: -2.5em;
 }
-
-.home-hero-ctnt {
-    position: absolute;
+.rtmp-container {
+    height: 50vh;
 }
-
+.srt-container {
+    height: 50vh;
+}
+.service-hero-txt {
+    height: 20vh;
+}
 .home-hero-txt h1 {
     font-size: 3em;
     line-height: 1.1em;
@@ -615,6 +619,7 @@ body {
 
     .home-hero-ctnt {
         margin-top: 8em;
+        height: 100vh;
     }
 
     .nav-bar {
@@ -882,6 +887,88 @@ body {
 
 }
 
+@media screen and (max-device-width: 400px) {
+    .nav-logo {
+        position: absolute;
+        margin-left: 0em;
+    }
+    .hamburger-icon {
+        margin-left: -3em;
+    }
+    .home-hero-txt h1 {
+        font-size: 2.5em;
+    }
+    .ctnt-wrapper {
+        height: 120vh;
+        margin-top: 8em;
+    }
+    .down-arrow {
+        margin-top: 26em;
+        margin-right: 2em;
+    }
+    .services-main-container {
+        height: 100vh;
+    }
+    .services-main-txt-container {
+       padding-top: 5em;
+    }
+    .service-hero-main-txt-sub {
+        margin-right: -4em;
+    }
+    .rtmp-container {
+        height: 70vh;
+    }
+    .rtmp-container h1 {
+        font-size: 3em;
+    }
+    .rtmp-container h2 {
+        font-size: 2em;
+    }
+    .srt-container {
+        height: 70vh;
+    }
+    .srt-container h1 {
+        font-size: 3em;
+    }
+    .srt-container h2 {
+        font-size: 2em;
+    }
+    .bg-overlay-txt-2  {
+        display: none;
+    }
+    .end-page {
+        height: 110vh;
+    }
+    .end-hero-txt-container h1{
+        font-size: 2.5em;
+    }
+    .end-hero-txt-container h2{
+        font-size: 0.9em;
+    }
+    .end-btn-container {
+        margin-top: 5em;
+        font-size: 0.5em;
+    }
+    .end-hero-img{
+        transform: scale(0.75);
+    }
+    .footer{
+        margin-top: 10em;
+        height: 100vh;
+    }
+     
+    .footer-btn {
+        margin-left: -10em;
+    }
+    .footer-address {
+        font-size: 1.2em;
+        width: 15em;
+    }
+    .footer-lower-container-right{
+        font-size: 0.8em;
+        margin-right: 60em;
+    }
+}
 /* Tablet view */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .nav-bar-container-open {
