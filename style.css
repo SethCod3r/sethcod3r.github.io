@@ -4,6 +4,11 @@
     scroll-behavior: smooth;
 }
 
+.about-us {
+    margin-top: 8em;
+    height: 100vh;
+}
+
 a {
     cursor: pointer;
 }
@@ -67,15 +72,19 @@ body {
     top: 2em;
     right: -2.5em;
 }
+
 .rtmp-container {
     height: 50vh;
 }
+
 .srt-container {
     height: 50vh;
 }
+
 .service-hero-txt {
     height: 20vh;
 }
+
 .home-hero-txt h1 {
     font-size: 3em;
     line-height: 1.1em;
@@ -561,11 +570,12 @@ body {
 /* Responsive  */
 /* Mobile */
 
-@media screen and (max-device-width: 640px ) {
+@media screen and (max-device-width: 640px) {
 
-    .body{
+    .body {
         overflow-x: hidden;
     }
+
     .ctnt-wrapper h2 {
         width: 20em;
     }
@@ -893,86 +903,110 @@ body {
         position: absolute;
         margin-left: 0em;
     }
+
     .hamburger-icon {
         margin-left: -3em;
     }
+
     .home-hero-txt h1 {
         font-size: 2.5em;
     }
+
     .ctnt-wrapper {
         height: 120vh;
         margin-top: 8em;
     }
+
     .down-arrow {
         margin-top: 26em;
         margin-right: 2em;
     }
+
     .services-main-container {
         height: 100vh;
     }
+
     .services-main-txt-container {
-       padding-top: 5em;
+        padding-top: 5em;
     }
+
     .service-hero-main-txt-sub {
         margin-right: -4em;
     }
+
     .rtmp-container {
         height: 70vh;
     }
+
     .rtmp-container h1 {
         font-size: 3em;
     }
+
     .rtmp-container h2 {
         font-size: 2em;
     }
+
     .srt-container {
         height: 70vh;
     }
+
     .srt-container h1 {
         font-size: 3em;
     }
+
     .srt-container h2 {
         font-size: 2em;
     }
-    .bg-overlay-txt-2  {
+
+    .bg-overlay-txt-2 {
         display: none;
     }
+
     .end-page {
         height: 110vh;
     }
-    .end-hero-txt-container h1{
+
+    .end-hero-txt-container h1 {
         font-size: 2.5em;
     }
-    .end-hero-txt-container h2{
+
+    .end-hero-txt-container h2 {
         font-size: 0.9em;
     }
+
     .end-btn-container {
         margin-top: 5em;
         font-size: 0.5em;
     }
-    .end-hero-img{
+
+    .end-hero-img {
         transform: scale(0.75);
     }
-    .footer{
+
+    .footer {
         margin-top: 10em;
         height: 80vh;
     }
-     
+
     .footer-btn {
         margin-left: -10em;
     }
+
     .footer-address {
         font-size: 1.2em;
         width: 15em;
     }
-    .footer-lower-container-right{
+
+    .footer-lower-container-right {
         font-size: 0.8em;
         margin-right: 60em;
     }
+
     .hero-img-home {
         margin-right: 31em;
     }
 }
+
 /* Tablet view */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .nav-bar-container-open {
@@ -989,9 +1023,78 @@ body {
 
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+     body  {
+        min-width: 768px;
+        max-width: 1024px;
+     }
+     .home {
+        height: 180vh;
+    }
+     .body {
+        overflow-x: hidden;
+     }
+    .home-hero-txt {
+        margin-top: 8em;
+     } 
+     .home-hero-txt h1 {
+        font-size: 5em;
+        width: 12em;
+     }
+     .home-hero-txt h2 {
+        font-size: 2em;
+        width: 19em;
+    }
+    .hamburger-icon {
+        margin-top: 1.5em;
+        margin-right: 8em;
+        z-index: 3;
+        transform: scale(1.5);
+    }
+    .nav-logo {
+        transform: scale(1.5);
+        margin-left: 3em;
+    }
+   
+ .home-main-btns a {
+    font-size: 1.5em;
+    padding: 1em;
+ }
+ .home-main-btns {
+    margin-top: 4em;
+ }
 
+    .hero-img-home {
+        position: absolute;
+        margin-top: 55em;
+        margin-right: 60em;
+    }
+    .nav-bar-container-open {
+        display: none;
+    }
 
-/*  Desktop View */
+    .nav-bar-closed {
+        display: block;
+        position: fixed;
+    }
+    .social-media-container {
+        margin-top: 55em;
+        position: absolute;
+        margin-left: -90em;
+        width: 100%;
+    }
+    .social-media {
+        width: 100%;
+        height: 5em;
+    }
+    .social-media ul li a {
+        padding: 5em;
+    }
+    .social-media ul {
+        margin-top: 1em;
+    }
+}
+
 @media screen and (min-width: 1024px) {
 
     .footer-c {
