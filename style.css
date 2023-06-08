@@ -560,7 +560,7 @@ body {
 /* Responsive  */
 /* Mobile */
 
-@media screen and (max-device-width: 640px) {
+@media screen and (max-device-width: 640px ) {
 
     .body{
         overflow-x: hidden;
@@ -954,7 +954,7 @@ body {
     }
     .footer{
         margin-top: 10em;
-        height: 100vh;
+        height: 80vh;
     }
      
     .footer-btn {
@@ -967,6 +967,9 @@ body {
     .footer-lower-container-right{
         font-size: 0.8em;
         margin-right: 60em;
+    }
+    .hero-img-home {
+        margin-right: 31em;
     }
 }
 /* Tablet view */
