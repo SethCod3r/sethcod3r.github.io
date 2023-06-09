@@ -3,7 +3,11 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 .about-us {
     margin-top: 8em;
     height: 100vh;
@@ -370,7 +374,7 @@ body {
 
 .supported-formats h1 {
     font-size: 3em;
-    margin-left: calc(100% - 80%);
+    margin-left: 10em;
     padding-top: 1em;
 }
 
@@ -1024,51 +1028,83 @@ body {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
-     body  {
+    html, body {
+        overflow-x:hidden 
+      }
+    
+    html {
+        overflow-x: hidden;
+        padding: 0em;
+        margin: 0;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
         min-width: 768px;
         max-width: 1024px;
-     }
-     .home {
-        height: 180vh;
-    }
-     .body {
         overflow-x: hidden;
-     }
+    }
+  .body {
+    overflow-x: hidden;
+  }
+    .home {
+        height: 160vh;
+    }
+
+    .body {
+        overflow-x: hidden;
+    }
+    
+    .home {
+        width: 100%;
+    }
     .home-hero-txt {
         margin-top: 8em;
-     } 
-     .home-hero-txt h1 {
+        width: 100%;
+    }
+
+    .home-hero-txt h1 {
         font-size: 5em;
-        width: 12em;
-     }
-     .home-hero-txt h2 {
+        width: 8em;
+    }
+
+    .home-hero-txt h2 {
         font-size: 2em;
         width: 19em;
     }
+
     .hamburger-icon {
         margin-top: 1.5em;
         margin-right: 8em;
         z-index: 3;
         transform: scale(1.5);
     }
+
     .nav-logo {
         transform: scale(1.5);
         margin-left: 3em;
     }
-   
- .home-main-btns a {
-    font-size: 1.5em;
-    padding: 1em;
- }
- .home-main-btns {
-    margin-top: 4em;
- }
+
+    .home-main-btns a {
+        font-size: 1.5em;
+        padding: 1em;
+    }
+
+    .home-main-btns {
+        margin-top: 4em;
+    }
 
     .hero-img-home {
         position: absolute;
         margin-top: 55em;
         margin-right: 60em;
     }
+
     .nav-bar-container-open {
         display: none;
     }
@@ -1077,23 +1113,164 @@ body {
         display: block;
         position: fixed;
     }
+
     .social-media-container {
         margin-top: 55em;
         position: absolute;
         margin-left: -90em;
         width: 100%;
+
     }
+
     .social-media {
-        width: 100%;
+    
+        background-color: #202434;
+
+        width: 52em;
         height: 5em;
+    
     }
+
     .social-media ul li a {
         padding: 5em;
     }
+
     .social-media ul {
         margin-top: 1em;
     }
-}
+    .about-us {
+        height: 80vh;
+    }
+    .down-arrow {
+        position: absolute;
+        margin-right: 25em;
+        transform: scale(0.75);
+    }
+    .ctnt-wrapper {
+        margin-left: -8em;
+    }
+    .bg-overlay-txt-2 {
+        z-index: -2;
+        margin-right: -1em;
+    }
+    .service-hero-img {
+        position: absolute;
+        margin-left: -48em;
+        margin-top: 2em;
+    }
+    .services-main-container {
+        height: 90vh;
+        margin-top: 3em;
+    }
+    .services-main-txt-container {
+        text-align: center;
+    }
+    .services-main-txt-container h2 {
+        margin-left: 2em;
+    }
+    .service-hero-txt {
+        height: 30vh;
+    }
+    .service-hero-txt h1 {
+        font-size: 8em;
+        margin-left: 0.5em;
+        color: #065AFF;
+    }
+    .service-hero-main-txt-sub{
+        position: absolute;
+        margin-top: 0em;
+        font-size: 2em;
+        margin-right: 0em;
+    }
+    .rtmp-container {
+        height: 70vh;
+    }
+    .rtmp-container-txt {
+        margin-top: 25em;
+    }
+    .srt-container {
+        height: 70vh;
+    }
+    .srt-container-txt {
+        margin-top: 25em;
+        margin-left: -30em;
+    }
+    .srt-img {
+        transform: scale(0.9);
+        margin-left: 10em;
+    }
+    .supported-formats {
+        height: 40vh;
+   }
+   .supported-formats  h1 {
+    margin-left: 5em;
+    width: 100%;
+    text-align: center;
+   }
+    .supported-formats {
+    
+        overflow-x: hidden
+    }
+    .end-page{
+        height: 120vh;
+
+    }
+    .supported-formats  h1 {
+        width: 100px;
+        
+    }
+    .end-hero-txt-container {
+        margin-left: 2em;
+        margin-top: 8em;
+        font-size: 1.2em;
+    }
+    .end-hero-img {
+        position: absolute;
+        margin-top: 38em;
+        margin-left: 5em;
+        transform: scale(1.2);
+    }
+    .footer {
+        height: 50vh;
+    }
+     .footer-outline {
+        width: 100%;
+        margin-left: -1em;
+     }
+     .footer-lower-container-right {
+        margin-right: 40em;
+        margin-top: -10em;
+     }
+     .link-list-right {
+        margin-left: 12em;
+     }
+     .hero-img-home {
+        margin-right: 38em;
+     }
+     .footer-c{
+        margin-left: 7em;
+        font-weight: 300;
+        margin-top: 3em;
+     }
+     .home {
+        width: 100%;
+
+     }
+     .about-us {
+        width: 100%;
+     }
+     .services {
+        width: 100%;
+     }
+     .body {
+        width: 100%;
+     }
+     .ctnt-wrapper h2 {
+          width: 25em;
+     }
+}   
+
+
 
 @media screen and (min-width: 1024px) {
 
